@@ -28,14 +28,20 @@ const Form = ({initialMeal, handleSubmit, buttonLabel}) => {
         <input
             type="text"
             onChange={handleChange}
-            value={formData.days}
-            name="days"
+            value={formData.day}
+            name="day"
         />
         <input
             type="text"
             onChange={handleChange}
-            value={formData.subject}
-            name="subject"
+            value={formData.meal}
+            name="meal"
+        />
+        <input
+            type="text"
+            onChange={handleChange}
+            value={formData.name}
+            name="name"
         />
         <input type="submit" value={buttonLabel} />
     </form>

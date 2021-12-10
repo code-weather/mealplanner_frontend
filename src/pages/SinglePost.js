@@ -22,8 +22,9 @@ const SinglePost = ({posts, edit, deleteMeal}) => {
 
 
     return <div style={div}>
-        <h1>{post?.days}</h1>
-        <h2>{post?.subject}</h2>
+        <h1>{post?.day}</h1>
+        <h2>{post?.meal}</h2>
+        <h2>{post?.name}</h2>
         <button onClick={() => deleteMeal(post)}>Delete</button>
         <button onClick={() => edit(post)}>Edit</button>
         <Link to="/">

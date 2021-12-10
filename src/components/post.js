@@ -15,9 +15,10 @@ const Post = ({ post }) => {
     return (
         <div style={div}>
             <Link to={`/post/${post.id}`}>
-                <h1>{post.days}</h1>
+                <h1>{post.day}</h1>
             </Link>
-            <h2>{post.subject}</h2>
+            <h2>{post.meal}</h2>
+            <h2>{post.name}</h2>
         </div>
     );
 };

@@ -38,8 +38,9 @@ function App() {
 
   // an empty meal for initializing the create form
   const nullMeal = {
-    days: "",
-    subject: ""
+    day: "",
+    meal: "",
+    name: ""
   }
 
   const [targetMeal, setTargetMeal] = useState(nullMeal)
