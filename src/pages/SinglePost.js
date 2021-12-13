@@ -16,7 +16,7 @@ const SinglePost = ({posts, edit, deleteMeal}) => {
     const div = {
         textAlign: "center",
         border: "3px solid green",
-        width: "80%",
+        width: "50%",
         margin: "30px auto"
     }
 
@@ -26,7 +26,7 @@ const SinglePost = ({posts, edit, deleteMeal}) => {
         <h2>{post?.meal}</h2>
         <h2>{post?.name}</h2>
         <button onClick={() => deleteMeal(post)}>Delete</button>
-        <button onClick={() => edit(post)}>Edit</button>
+        <button onClick={() => edit(post)} className="edit-button">Edit</button>
         <Link to="/">
             <button>Go Back</button>
         </Link>

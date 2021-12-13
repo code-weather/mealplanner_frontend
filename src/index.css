@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.edit-button {
+  margin: 0 20px 0 20px;
+}
+
+.modal-button {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  color: white;
+}
